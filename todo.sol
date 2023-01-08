@@ -11,7 +11,7 @@ contract TodoList{
     //Todo arr
     Todo[] public todos;
 
-    //Yeni Todo Oluşturuyoruz.
+    //Create Todo
     function create(string calldata _text) external{
         todos.push(Todo({
             text:_text,
